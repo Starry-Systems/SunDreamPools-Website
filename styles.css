@@ -116,3 +116,7 @@ body {
     align-items: center;
     display: flex;
 }
+.link {
+    color: white;
+    text-decoration: none;
+}
