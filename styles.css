@@ -1,0 +1,118 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1C1C1C;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 3rem;
+  }
+  
+  .logo {
+    height: 40px;
+    border-radius: 10px;
+  }
+  
+  .brand {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .text {
+    flex: 1 1 400px;
+  }
+  
+  .main {
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .highlight {
+    color: #41AFFF;
+  }
+  
+  .sub {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .btn {
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+  
+  .btn.roblox {
+    background-color: #0D6EFD;
+  }
+  
+  .btn.roblox:hover {
+    background-color: #0b5ed7;
+  }
+  
+  .btn.discord {
+    background-color: #5865F2;
+  }
+  
+  .btn.discord:hover {
+    background-color: #4752c4;
+  }
+  
+  .image-container {
+    flex: 1 1 400px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    color: #888;
+    border-top: 1px solid #333;
+    margin-top: 4rem;
+  }
+.wm {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
